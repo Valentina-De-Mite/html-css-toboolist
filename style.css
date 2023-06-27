@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Work Sans', sans-serif;
+    
 }
 
 
@@ -13,20 +14,150 @@
     --tobo.fontcolour: rgba(68,72,81,255);
     --tobo.editorial: rgba(69,171,234,255);
     --tobo.goals: rgba(156,114,228,255);
-    --tobo.recruiting: rgba(156,114,228,255);
+    --tobo.recruiting: rgba(100,192,169,255);
     --tobo.mobile: rgba(242,158,51,255);
     --tobo.website: rgba(216,99,161,255);
     --tobo.sales: rgba(176,201,38,255);
     --tobo.check: rgba(137,209,194,255);
 
 
-
-.logo{
-    display: inline-block;
 }
 
-#banner {
-    font: 30px bold rgba(68,72,81,255);
 
+body{
+    background-color: rgba(246,248,249,255);
+}
+
+.logo {
+    display: inline;
+    width: 30px;
+    padding top: 10px;
+    padding left: 10px
+}
+
+h1{
+    display: inline-block;
+    line-height: 20 0%;
+
+}
+
+.banner{
+    background-color: rgba(246,248,249,255);
+    width: 100%;
+    height: 50px;
+}
+
+
+
+main{
+    padding-top: 50px;
+    text-align: left;
+    margin: auto;
+    padding-left: 400px;
+}
+
+span{
+    padding top: 40px; 
+
+}
+
+
+
+.task{
+    background-color: rgba(69,171,234,255);
+    border-radius:5px;
+    border-style: none;
+    color: white;
+    padding: 9px;
+    margin-right: 10px;
+    font-size: small;
     
+}
+
+.section{
+    border-radius:5px;
+    padding: 7px;
+    font-size: small;
+    color: rgba(224,228,230,255);
+    border-color: rgba(224,228,230,255);
+}
+
+.list{
+    padding-top: 40px;
+}
+
+p{
+    display: inline;
+    text-align: center;
+    padding-top: 8px;
+    
+}
+
+h2{
+    margin-bottom: 20px;
+}
+
+.list{
+    margin-bottom: 15px;
+}
+.editorial{
+    margin-left: 20px;
+    border-radius: 20px;
+    padding: 5px 10px;
+    color: white;
+    background-color:rgba(69,171,234,255);
+    border-style: none;
+    margin-top: 20px;
+}
+
+
+.Q1{
+    margin-left: 20px;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 5px 10px;
+    color: white;
+    background-color:rgba(156,114,228,255);
+    border-style: none;
+    
+}
+
+.recruinting{
+    margin-left: 20px;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 5px 10px;
+    color: white;
+    background-color:rgba(100,192,169,255);
+    border-style: none;
+}
+
+.mobile{
+    margin-left: 20px;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 5px 10px;
+    color: white;
+    background-color:rgba(242,158,51,255);
+    border-style: none; 
+}
+
+.website{
+    margin-left: 20px;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 5px 10px;
+    color: white;
+    background-color:rgba(216,99,161,255);
+    border-style: none; 
+}
+
+.sales {
+    margin-left: 20px;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 5px 10px;
+    color: white;
+    background-color:rgba(176,201,38,255);
+    border-style: none; 
 }
