@@ -1,170 +1,170 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Work Sans', sans-serif;
-    
-}
-
-
-:root{
-    --tobo.primary_color: rgba(255,255,255,255);
-    --tobo.logo: rgba(0,0,0,255);
-    --tobo.bg: rgba(246,248,249,255);
-    --tobo.fontcolour: rgba(68,72,81,255);
-    --tobo.editorial: rgba(69,171,234,255);
-    --tobo.goals: rgba(156,114,228,255);
-    --tobo.recruiting: rgba(100,192,169,255);
-    --tobo.mobile: rgba(242,158,51,255);
-    --tobo.website: rgba(216,99,161,255);
-    --tobo.sales: rgba(176,201,38,255);
-    --tobo.check: rgba(137,209,194,255);
-
 
 }
 
 
-body{
-    background-color: rgba(246,248,249,255);
+:root {
+    --tobo-primary_color: rgba(255, 255, 255, 255);
+    --tobo-logo: rgba(0, 0, 0, 255);
+    --tobo-bg: rgba(246, 248, 249, 255);
+    --tobo-fontcolour: rgba(68, 72, 81, 255);
+    --tobo-editorial: rgba(69, 171, 234, 255);
+    --tobo-goals: rgba(156, 114, 228, 255);
+    --tobo-recruiting: rgba(100, 192, 169, 255);
+    --tobo-mobile: rgba(242, 158, 51, 255);
+    --tobo-website: rgba(216, 99, 161, 255);
+    --tobo-sales: rgba(176, 201, 38, 255);
+    --tobo-check: rgba(137, 209, 194, 255);
+
+
 }
-.banner{
+
+
+body {
+    background-color: rgba(246, 248, 249, 255);
+}
+
+.banner {
     padding-top: 20px;
     padding-left: 10px;
 }
 
+.inline {
+    display: inline;
+}
 
 .logo {
-    display: inline;
-    width: 30px;
-    padding top: 30px;
-    padding left: 10px
+    width: 40px;
 }
 
-h1{
+h1 {
     display: inline-block;
-    vertical-align: 50%;
-    font-size: 30px;
+    font-size: 35px;
     font-weight: 700;
+    vertical-align: top;
 
 }
 
-.banner{
-    background-color: rgba(246,248,249,255);
+.banner {
+    background-color: white;
     width: 100%;
     height: 80px;
 }
 
 
 
-main{
-    padding-top: 40px;
-    text-align: left;
+main {
+    width: 80%;
     margin: auto;
-    padding-left: 400px;
-}
-
-span{
-    padding top: 40px; 
+    margin-top: 30px;
 
 }
 
+.bottum {
+    padding: 20px 50px;
+    margin-bottom: 5px;
+    background-color: white;
+    border-radius: 5px;
+}
 
 
-.task{
-    background-color: rgba(69,171,234,255);
-    border-radius:5px;
+
+
+.task {
+    background-color: rgba(69, 171, 234, 255);
+    border-radius: 5px;
     border-style: none;
     color: white;
     padding: 9px;
     margin-right: 10px;
     font-size: small;
-    
+
 }
 
-.section{
-    border-radius:5px;
+.section {
+    border-radius: 5px;
     padding: 7px;
     font-size: small;
-    color: rgba(224,228,230,255);
-    border-color: rgba(224,228,230,255);
+    color: rgba(224, 228, 230, 255);
+    border-color: rgba(224, 228, 230, 255);
+    background-color: white;
 }
 
-.list{
-    padding-top: 40px;
+.list {
+    padding: 20px 50px;
+    background-color: white;
 }
 
-p{
+.list_element {
+    padding-bottom: 20px;
+}
+
+p {
     display: inline;
     text-align: center;
     padding-top: 8px;
-    
-}
 
-h2{
-    margin-bottom: 20px;
 }
 
 
-.editorial{
+.editorial {
     margin-left: 5px;
     border-radius: 20px;
     padding: 5px 10px;
     color: white;
-    background-color:rgba(69,171,234,255);
-    border-style: none;
-    margin-top: 20px;
-}
-
-
-.Q1{
-    margin-left: 5px;
-    border-radius: 20px;
-    margin-top: 20px;
-    padding: 5px 10px;
-    color: white;
-    background-color:rgba(156,114,228,255);
-    border-style: none;
-    
-}
-
-.recruinting{
-    margin-left: 5px;
-    border-radius: 20px;
-    margin-top: 20px;
-    padding: 5px 10px;
-    color: white;
-    background-color:rgba(100,192,169,255);
+    background-color: rgba(69, 171, 234, 255);
     border-style: none;
 }
 
-.mobile{
+
+.Q1 {
     margin-left: 5px;
     border-radius: 20px;
-    margin-top: 20px;
     padding: 5px 10px;
     color: white;
-    background-color:rgba(242,158,51,255);
-    border-style: none; 
+    background-color: rgba(156, 114, 228, 255);
+    border-style: none;
+
 }
 
-.website{
+.recruinting {
     margin-left: 5px;
     border-radius: 20px;
-    margin-top: 20px;
     padding: 5px 10px;
     color: white;
-    background-color:rgba(216,99,161,255);
-    border-style: none; 
+    background-color: rgba(100, 192, 169, 255);
+    border-style: none;
+}
+
+.mobile {
+    margin-left: 5px;
+    border-radius: 20px;
+    padding: 5px 10px;
+    color: white;
+    background-color: rgba(242, 158, 51, 255);
+    border-style: none;
+}
+
+.website {
+    margin-left: 5px;
+    border-radius: 20px;
+    padding: 5px 10px;
+    color: white;
+    background-color: rgba(216, 99, 161, 255);
+    border-style: none;
 }
 
 .sales {
     margin-left: 5px;
     border-radius: 20px;
-    margin-top: 20px;
     padding: 5px 10px;
     color: white;
-    background-color:rgba(176,201,38,255);
-    border-style: none; 
+    background-color: rgba(176, 201, 38, 255);
+    border-style: none;
 }
 
 footer {
@@ -172,3 +172,6 @@ footer {
     text-align: center;
 }
 
+.todo {
+    margin-top: 20px;
+}
